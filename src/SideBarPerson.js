@@ -20,7 +20,7 @@ class SideBarPerson extends Component {
 
       // Person Content
       messages = this.props.messages.map(message => {
-        return <p className='item'>message</p>;
+        return <p className='item'>{message}</p>;
       });
       content = (
         <div className="person-data-content group-vertical">
@@ -36,20 +36,20 @@ class SideBarPerson extends Component {
       content = (
         <div className="person-data-content group-row">
           <div className="circle item"></div>
-          <p className="stage-status">on stage</p>
-          <button className="boot">• Boot</button>
+          {this.props.onStage ? <p className="stage-status">on stage</p> : ''}
+          {this.props.inSession ? <button className="boot">• Boot</button> : ''}
         </div>
       );
     }
 
     return (
-      <div className="side-bar-person group-row">
-        <img src={this.props.img.src} alt={this.props.name} className="profile-pic item" />
+      <li className="side-bar-person group-row">
+        <img src={this.props.avatar} alt={this.props.name} className="profile-pic item" />
         <div className="person-data group-vertical item">
           {personHeader}
           {content}
         </div>
-      </div>
+      </li>
     )
   }
 }
