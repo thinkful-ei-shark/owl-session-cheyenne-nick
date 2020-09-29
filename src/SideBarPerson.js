@@ -12,9 +12,9 @@ class SideBarPerson extends Component {
     if (isInChat) {
       // Person Header
       personHeader = (
-        <div class="group-row">
-          <h3 class="item">this.props.name</h3>
-          <p class="item">this.props.time</p>
+        <div className="group-row">
+          <h3 className="item">this.props.name</h3>
+          <p className="item">this.props.time</p>
         </div>
       );
 

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './StageParticipant.css'
 
 class StageParticipant extends Component {
     render() {
@@ -12,7 +13,7 @@ class StageParticipant extends Component {
                         <button className="mag-glass">🔍</button>
                     </div>
                 </div>
-                <img src={this.props.img.src} alt={this.props.name} className="profile-pic item" />
+                <img src={this.props.avatar} alt={this.props.name} className="profile-pic item" />
             </div>
         )
     }

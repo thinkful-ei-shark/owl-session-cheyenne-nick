@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import 'TheStage.css'
-import StageParticipant from 'StageParticipant.js'
+import './TheStage.css'
+import StageParticipant from './StageParticipant.js'
 
 class TheStage extends Component {
     render(){
@@ -14,7 +14,7 @@ class TheStage extends Component {
                    {participants}
                    <div className = "stage-screen">
                        <div className = "audio-bar"></div>
-                       <img  src={this.props.img.src} alt={this.props.name} className="profile-pic item" />
+                       <img  src={this.props.avatar} alt={this.props.name} className="profile-pic item" />
 
                    </div>
                </div>

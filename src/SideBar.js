@@ -3,6 +3,10 @@ import SideBarPerson from './SideBarPerson';
 import './SideBar.css';
 
 class SideBar extends Component {
+  findById(id) {
+    return this.props.participants.find(participant => participant.id === id);
+  }
+
   render() {
     const eventShoutouts = {
       'thumbs-up': ' gave a thumbs up 👍',
@@ -16,18 +20,18 @@ class SideBar extends Component {
     };
 
     const chatEvents = this.props.chatEvents.map(event => {
-      const currentName = this.props.participants[event.participantId].name;
+      const currentParticipant = this.findById(event.participantId);
       if (event.type === "message") {
         return (
           <SideBarPerson key={event.participantId + event.timestamp}
-            name={currentName} time={event.time} 
-            messages={[event.message]} avatar={this.props.participants[event.participantId].avatar}
+            name={currentParticipant.name} time={event.time} 
+            messages={[event.message]} avatar={currentParticipant.avatar}
             isInChat={true} />
         );
       } else {
         return (
-          <p class="chat-event item">
-            <span class="user-name">{currentName}</span>
+          <p className="chat-event item">
+            <span className="user-name">{currentParticipant.name}</span>
             {eventShoutouts[event.type]}
           </p>
         );
@@ -56,13 +60,13 @@ class SideBar extends Component {
 
 
     return (
-      <section className="side-bar group-column">
+      <section className="side-bar item group-column">
         <div className="actions-header group-row">
-          <button type="button" class="item">Chat</button>
-          <button type="button" class="item">Participants {this.props.numParticipants}</button>
-          <button type="button" class="item">⚙️</button>
-          <button type="button" class="item">🔗</button>
-          <button type="button" class="item">?</button>
+          <button type="button" className="item">Chat</button>
+          <button type="button" className="item">Participants {this.props.participants.length}</button>
+          <button type="button" className="item">⚙️</button>
+          <button type="button" className="item">🔗</button>
+          <button type="button" className="item">?</button>
         </div>
 
         <ul className="chat-log item">
