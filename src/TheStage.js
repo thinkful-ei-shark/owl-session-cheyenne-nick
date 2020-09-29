@@ -9,7 +9,7 @@ class TheStage extends Component {
         });
 
         return(
-           <div className="the-stage item-three">
+           <div className="the-stage three-column">
                <div className="stage-paricipants group-row">
                    {participants}
                    <div className = "stage-screen">

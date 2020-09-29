@@ -1,0 +1,19 @@
+.App .group-row {
+    display: flex;
+    flex-direction: row;
+}
+.App .group-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.App .item {
+    flex: 1;
+}
+.App .three-column {
+    flex: 3;
+}
+
+.App .hidden {
+    display: none;
+}
