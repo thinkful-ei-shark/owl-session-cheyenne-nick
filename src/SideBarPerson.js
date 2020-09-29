@@ -30,7 +30,7 @@ class SideBarPerson extends Component {
     // Else if participants bar is showing
     } else {
       // Person Header
-      personHeader = <h3 class="item">this.props.name</h3>;
+      personHeader = <h3 className="item">this.props.name</h3>;
 
       // Person Content
       content = (

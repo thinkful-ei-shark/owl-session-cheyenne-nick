@@ -30,7 +30,7 @@ class SideBar extends Component {
         );
       } else {
         return (
-          <p className="chat-event item">
+          <p key={event.participantId + event.timestamp} className="chat-event item">
             <span className="user-name">{currentParticipant.name}</span>
             {eventShoutouts[event.type]}
           </p>

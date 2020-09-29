@@ -11,8 +11,8 @@ class App extends Component {
     });
     return (
       <main className='App'>
-        <article class="group-column">
-          <div class="item group-row">
+        <article className="group-column">
+          <div className="item group-row">
             <SideBar participants={this.props.participants} chatEvents={this.props.chatEvents}/>
             <TheStage participants={participantsOnStage} avatar={this.props.user.avatar} 
               name={this.props.user.name}/>

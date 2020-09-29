@@ -1,0 +1,486 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders the UI as expected 1`] = `
+<main
+  className="App"
+>
+  <article
+    className="group-column"
+  >
+    <div
+      className="item group-row"
+    >
+      <section
+        className="side-bar item group-column"
+      >
+        <div
+          className="actions-header group-row"
+        >
+          <button
+            className="item"
+            type="button"
+          >
+            Chat
+          </button>
+          <button
+            className="item"
+            type="button"
+          >
+            Participants 
+            5
+          </button>
+          <button
+            className="item"
+            type="button"
+          >
+            ⚙️
+          </button>
+          <button
+            className="item"
+            type="button"
+          >
+            🔗
+          </button>
+          <button
+            className="item"
+            type="button"
+          >
+            ?
+          </button>
+        </div>
+        <ul
+          className="chat-log item"
+        >
+          <li
+            className="side-bar-person group-row"
+          >
+            <img
+              alt="Axe Kubicka"
+              className="profile-pic item"
+              src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+            />
+            <div
+              className="person-data group-vertical item"
+            >
+              <div
+                className="group-row"
+              >
+                <h3
+                  className="item"
+                >
+                  this.props.name
+                </h3>
+                <p
+                  className="item"
+                >
+                  this.props.time
+                </p>
+              </div>
+              <div
+                className="person-data-content group-vertical"
+              >
+                <p
+                  className="item"
+                >
+                  Hello world
+                </p>
+              </div>
+            </div>
+          </li>
+          <p
+            className="chat-event item"
+          >
+            <span
+              className="user-name"
+            >
+              Caty Flucker
+            </span>
+             gave a thumbs up 👍
+          </p>
+          <p
+            className="chat-event item"
+          >
+            <span
+              className="user-name"
+            >
+              Frank Runciman
+            </span>
+             gave a thumbs down 👎
+          </p>
+          <p
+            className="chat-event item"
+          >
+            <span
+              className="user-name"
+            >
+              Koren Templeton
+            </span>
+             raised their hand ✋
+          </p>
+          <p
+            className="chat-event item"
+          >
+            <span
+              className="user-name"
+            >
+              Koren Templeton
+            </span>
+             clapped 👏
+          </p>
+          <p
+            className="chat-event item"
+          >
+            <span
+              className="user-name"
+            >
+              Koren Templeton
+            </span>
+             joined
+          </p>
+          <p
+            className="chat-event item"
+          >
+            <span
+              className="user-name"
+            >
+              Ashla Attwool
+            </span>
+             left
+          </p>
+          <p
+            className="chat-event item"
+          >
+            <span
+              className="user-name"
+            >
+              Axe Kubicka
+            </span>
+             joined the stage
+          </p>
+          <p
+            className="chat-event item"
+          >
+            <span
+              className="user-name"
+            >
+              Axe Kubicka
+            </span>
+             left the stage
+          </p>
+        </ul>
+        <ul
+          className="participant-list hidden item"
+        >
+          <li
+            className="side-bar-person group-row"
+          >
+            <img
+              alt="Koren Templeton"
+              className="profile-pic item"
+              src={
+                Array [
+                  "https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1",
+                ]
+              }
+            />
+            <div
+              className="person-data group-vertical item"
+            >
+              <h3
+                className="item"
+              >
+                this.props.name
+              </h3>
+              <div
+                className="person-data-content group-row"
+              >
+                <div
+                  className="circle item"
+                />
+                <p
+                  className="stage-status"
+                >
+                  on stage
+                </p>
+                <button
+                  className="boot"
+                >
+                  • Boot
+                </button>
+              </div>
+            </div>
+          </li>
+          <li
+            className="side-bar-person group-row"
+          >
+            <img
+              alt="Caty Flucker"
+              className="profile-pic item"
+              src={
+                Array [
+                  "https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1",
+                ]
+              }
+            />
+            <div
+              className="person-data group-vertical item"
+            >
+              <h3
+                className="item"
+              >
+                this.props.name
+              </h3>
+              <div
+                className="person-data-content group-row"
+              >
+                <div
+                  className="circle item"
+                />
+                
+                <button
+                  className="boot"
+                >
+                  • Boot
+                </button>
+              </div>
+            </div>
+          </li>
+          <li
+            className="side-bar-person group-row"
+          >
+            <img
+              alt="Frank Runciman"
+              className="profile-pic item"
+              src={
+                Array [
+                  "https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1",
+                ]
+              }
+            />
+            <div
+              className="person-data group-vertical item"
+            >
+              <h3
+                className="item"
+              >
+                this.props.name
+              </h3>
+              <div
+                className="person-data-content group-row"
+              >
+                <div
+                  className="circle item"
+                />
+                
+                <button
+                  className="boot"
+                >
+                  • Boot
+                </button>
+              </div>
+            </div>
+          </li>
+          <li
+            className="side-bar-person group-row"
+          >
+            <img
+              alt="Ashla Attwool"
+              className="profile-pic item"
+              src={
+                Array [
+                  "https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1",
+                ]
+              }
+            />
+            <div
+              className="person-data group-vertical item"
+            >
+              <h3
+                className="item"
+              >
+                this.props.name
+              </h3>
+              <div
+                className="person-data-content group-row"
+              >
+                <div
+                  className="circle item"
+                />
+                <p
+                  className="stage-status"
+                >
+                  on stage
+                </p>
+                <button
+                  className="boot"
+                >
+                  • Boot
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <textarea
+          placeholder="Chat"
+        />
+      </section>
+      <div
+        className="the-stage three-column"
+      >
+        <div
+          className="stage-paricipants group-row"
+        >
+          <div
+            className="stage-participant item group-column"
+          >
+            <div
+              className="stage-settings item group-column"
+            >
+              <h3
+                className="stage-name"
+              >
+                this.props.name
+              </h3>
+              <div
+                className="audio-bar"
+              />
+              <div
+                className="icons group-row"
+              >
+                <button
+                  className="speaker"
+                >
+                  🔊
+                </button>
+                <button
+                  className="mag-glass"
+                >
+                  🔍
+                </button>
+              </div>
+            </div>
+            <img
+              alt="Koren Templeton"
+              className="profile-pic item"
+              src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+            />
+          </div>
+          <div
+            className="stage-participant item group-column"
+          >
+            <div
+              className="stage-settings item group-column"
+            >
+              <h3
+                className="stage-name"
+              >
+                this.props.name
+              </h3>
+              <div
+                className="audio-bar"
+              />
+              <div
+                className="icons group-row"
+              >
+                <button
+                  className="speaker"
+                >
+                  🔊
+                </button>
+                <button
+                  className="mag-glass"
+                >
+                  🔍
+                </button>
+              </div>
+            </div>
+            <img
+              alt="Ashla Attwool"
+              className="profile-pic item"
+              src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+            />
+          </div>
+          <div
+            className="stage-screen"
+          >
+            <div
+              className="audio-bar"
+            />
+            <img
+              alt="name"
+              className="profile-pic item"
+              src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <section
+      className="bottom-bar item group-row"
+    >
+      <div
+        className="actions-header group-row item"
+      >
+        <button
+          className="item"
+          type="button"
+        >
+          &lt;
+        </button>
+        <button
+          className="item"
+          type="button"
+        >
+          👍
+        </button>
+        <button
+          className="item"
+          type="button"
+        >
+          👎
+        </button>
+        <button
+          className="item"
+          type="button"
+        >
+          ✋
+        </button>
+        <button
+          className="item"
+          type="button"
+        >
+          👏
+        </button>
+      </div>
+      <div
+        className="actions-header group-row item"
+      >
+        <button
+          className="item"
+          type="button"
+        >
+          📹
+        </button>
+        <button
+          className="item"
+          type="button"
+        >
+          🔊
+        </button>
+        <button
+          className="item"
+          type="button"
+        >
+          💻
+        </button>
+        <button
+          className="item"
+          type="button"
+        >
+          Leave stage
+        </button>
+      </div>
+    </section>
+  </article>
+</main>
+`;

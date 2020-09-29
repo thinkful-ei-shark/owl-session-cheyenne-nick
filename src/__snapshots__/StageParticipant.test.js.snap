@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StageParticipant /> renders the UI as expected 1`] = `
+<div
+  className="stage-participant item group-column"
+>
+  <div
+    className="stage-settings item group-column"
+  >
+    <h3
+      className="stage-name"
+    >
+      this.props.name
+    </h3>
+    <div
+      className="audio-bar"
+    />
+    <div
+      className="icons group-row"
+    >
+      <button
+        className="speaker"
+      >
+        🔊
+      </button>
+      <button
+        className="mag-glass"
+      >
+        🔍
+      </button>
+    </div>
+  </div>
+  <img
+    alt="name"
+    className="profile-pic item"
+    src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+  />
+</div>
+`;

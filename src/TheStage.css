@@ -1,5 +1,5 @@
 .the-stage .stage-screen {
-    position: absolute;
-    top: 40%;
-    left: 60%;
+    position: relative;
+    top: 330px;
+    left: -50%;
 }

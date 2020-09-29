@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SideBarPerson /> renders the UI as expected 1`] = `
+<li
+  className="side-bar-person group-row"
+>
+  <img
+    alt="name"
+    className="profile-pic item"
+    src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+  />
+  <div
+    className="person-data group-vertical item"
+  >
+    <div
+      className="group-row"
+    >
+      <h3
+        className="item"
+      >
+        this.props.name
+      </h3>
+      <p
+        className="item"
+      >
+        this.props.time
+      </p>
+    </div>
+    <div
+      className="person-data-content group-vertical"
+    >
+      <p
+        className="item"
+      >
+        message
+      </p>
+    </div>
+  </div>
+</li>
+`;

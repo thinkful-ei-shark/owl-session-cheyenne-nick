@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BottomBar /> renders the UI as expected 1`] = `
+<section
+  className="bottom-bar item group-row"
+>
+  <div
+    className="actions-header group-row item"
+  >
+    <button
+      className="item"
+      type="button"
+    >
+      &lt;
+    </button>
+    <button
+      className="item"
+      type="button"
+    >
+      👍
+    </button>
+    <button
+      className="item"
+      type="button"
+    >
+      👎
+    </button>
+    <button
+      className="item"
+      type="button"
+    >
+      ✋
+    </button>
+    <button
+      className="item"
+      type="button"
+    >
+      👏
+    </button>
+  </div>
+  <div
+    className="actions-header group-row item"
+  >
+    <button
+      className="item"
+      type="button"
+    >
+      📹
+    </button>
+    <button
+      className="item"
+      type="button"
+    >
+      🔊
+    </button>
+    <button
+      className="item"
+      type="button"
+    >
+      💻
+    </button>
+    <button
+      className="item"
+      type="button"
+    >
+      Leave stage
+    </button>
+  </div>
+</section>
+`;
