@@ -1,0 +1,37 @@
+//Participant list
+<section id="chat-and-participants">
+  <button type="button">Chat</button>
+  <button type="button">Participants {num-particapants}</button>
+
+  <div id="participants-list"> <!--Render on Participants button click-->
+    <div class="side-bar">
+      <div class="side-bar-person group-row">
+        <img class="profile-pic" />
+        <div class="person-data group-vertical">
+          <!--Name, whether in session-->
+        </div>
+      </div>
+     <div class="side-bar-person group-row">
+        <img class="profile-pic" />
+        <div class="person-data group-vertical">
+          <!--Name, whether in session-->
+        </div>
+      </div>
+      <div class="side-bar-person group-row">
+        <img class="profile-pic" />
+        <div class="person-data group-vertical">
+          <!--Name, whether in session-->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="chat-log">  <!--Otherwise render on Chat button click-->
+      <div class="side-bar-person group-row">
+        <img class="profile-pic" />
+        <div class="person-data group-vertical">
+          <!--Name, time, message-->
+        </div>
+      </div>
+  </div>
+</section
